@@ -37,3 +37,20 @@ El vendedor podrá ver un listado de las ventas realizadas, detallando el client
 
 Modificación del stock:
 Si hay productos que ingresan al inventario (por compra de proveedores, etc.), el administrador podrá actualizar manualmente el stock.
+
+
+### Despliegue del sitio
+
+- Clone el repositorio con git clone (url)
+- Iniciar Apache y MySQL
+- Ir a phpMyAdmin y crear base de datos con nombre stockear
+- Importar la base de datos en la carpeta database
+- En XAMPP, haga click en explorer y seleccione htdocs
+- Pase el repositorio clonado a la carpeta htdocs
+- Ir a su navegador de preferencia e ingresar a localhost/stockear
+- Logearse
+- Disfrutar la aplicacion
+
+### Usuario y contraseña del admin
+- user: webadmin
+- contraseña: admin123
